@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Project Tango tutorial</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/et-line-font.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!-- preloader section -->
+<div class="preloader">
+	<div class="sk-spinner sk-spinner-circle">
+       <div class="sk-circle1 sk-circle"></div>
+       <div class="sk-circle2 sk-circle"></div>
+       <div class="sk-circle3 sk-circle"></div>
+       <div class="sk-circle4 sk-circle"></div>
+       <div class="sk-circle5 sk-circle"></div>
+       <div class="sk-circle6 sk-circle"></div>
+       <div class="sk-circle7 sk-circle"></div>
+       <div class="sk-circle8 sk-circle"></div>
+       <div class="sk-circle9 sk-circle"></div>
+       <div class="sk-circle10 sk-circle"></div>
+       <div class="sk-circle11 sk-circle"></div>
+       <div class="sk-circle12 sk-circle"></div>
+    </div>
+</div>
+
+<!-- navigation section -->
+<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">TUTORIAL</a></div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">HOME</a></li>
+				<li><a href="#introduction" class="smoothScroll">INTRODUCTION</a></li>
+				<li><a href="#sensors" class="smoothScroll">SENSORS</a></li>
+				<li><a href="#concept" class="smoothScroll">CONCEPT</a></li>
+				<li><a href="#api" class="smoothScroll">API</a></li>
+				<li><a href="#use-case" class="smoothScroll">USE-CASE</a></li>
+				<li><a href="#reference" class="smoothScroll">Bibliography</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<!-- home section -->
+<section id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h3>CS 6825 Project 1 -- Qian Chen</h3>
+				<h1>Project Tango</h1>
+				<hr>
+				<a href="https://www.youtube.com/watch?v=k43xJs3Roqg" class="smoothScroll btn btn-danger">LIVE VIDEO</a>
+				<a href="https://docs.google.com/forms/d/1H6muwM9TnGxA1TcRHfv5EyRQ0hqdwhmxu2clwmN_s5E/edit?usp=sharing" class="smoothScroll btn btn-default">QUIZ</a>
+			</div>
+		</div>
+	</div>		
+</section>
+
+<!-- introduction section -->
+<section id="introduction">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					<strong>01</strong>
+					<h1 class="heading bold">WHAT IS PROJECT TANGO?</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
+				<i class="icon-cloud medium-icon"></i>
+					<h3>Brief Introduction</h3>
+					<hr>
+					<p>Project Tango technology gives mobile devices the ability to navigate the physical world similar to how we do as humans. Also it brings a new kind of spatial perception by adding advanced computer vision, image processing, and special vision sensors. With the devices, users can experience to explore physical space around, including precise navigation without GPS, windows into virtual 3D worlds, measurement and scanning of spaces, and games that know where they are in the room and what’s around them.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+				<i class="icon-mobile medium-icon"></i>
+					<h3>Devices</h3>
+					<hr>
+					<p>Project Tango needs specific device to develop. The device has the sensors to be able to know where it is and how it moves through space. For now, all developers can buy the develop kit on Google shop.<br><br><br><br></p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-laptop medium-icon"></i>
+					<h3>Platform</h3>
+					<hr>
+					<p>Users can experience a leading-edge platform that brings devices a new level of awareness through area learning and real-time 3D motion and depth sensing. Project Tango can only be developed on Android platform. <br><br><br></p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1.2s">
+				<i class="icon-compass medium-icon"></i>
+					<h3>Moblie apps</h3>
+					<hr>
+					<p>More and more applications released on Google shop. Indoor navigation, new home decorating, real life dimention, VR games... All of these applications fully use the new functions of Project Tango.<br><br><br></p>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1.5s">
+				<i class="icon-browser medium-icon"></i>
+					<h3>APIs development</h3>
+					<hr>
+					<p>Project Tango offers APIs in C and Java, and an SDK for Unity. For example, Java API: Package com.google.atap.tangoservice, and Java Support Library API: Package com.projecttango.tangosupport.<br><br><br></p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- sensors section -->
+<section id="sensors">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					<strong>02</strong>
+					<h1 class="heading bold">SENSORS</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="images/tablet-front.png" class="img-responsive" alt="about img">
+                <img src="images/tablet-back.png" class ="img-responsive" alt="about img">
+                <br><br><br><br><br><br><br><br><br>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h3 class="bold">Project Tango Tablet Development Kit hardware</h3>
+				<h1 class="heading bold">Sensors combination: </h1>
+                <h5>Motion tracking camera, 3D depth sensing, Accelerometer, Ambient light, Barometer, Compass, GPS, Gyroscope</h5>
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">Motion tracking camera</a></li>
+					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">3D depth sensing</a></li>
+					<li><a href="#social" aria-controls="social" role="tab" data-toggle="tab">Rest sensors</a></li>
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="design">
+                        <p>Project Tango uses a wide-angle camera, also called "Fisheye" lens. For my understanding, motion tracking camera provides the function of capture images and 3D tracking. It recreates a virtual room that fits perfectly to the filmed footage to assign the movements of a real camera to a digital one. In a bright enough environment, camera can catch enough points close to or far away from the camera. According to the points from images, calculate the relaition of the moving points. </p>
+                      	<img src="images/motion-tracking.jpg">
+					</div>
+					<div role="tabpanel" class="tab-pane" id="mobile">
+						<p>	3D depth sensors must have two elements: IR(Infra-Red) projector and IR camera. Some depth sensors have RGB(Red green blue) camera, and some don't have. For Project Tango tablet, it has RGB camera. All of these elements can be seen on the tablet diagram.<br><br> 
+                        The IR projector projects a pattern of IR light which falls on objects around it like a sea of dots. And these dots can only been seen by IR camera. Then finally RGB camera capture the images and sends the video feed of disorted dot pattern into depth sensor processors. The processor works out depth from the displacement of the dots. This depth result map can be read from the depth sensor by the tablet. </p>
+                        <img src="images/RGBDDots.png">
+					 </div>
+                    <div role="tabpanel" class="tab-pane" id="social">
+                   		 <h4> The following sensors already build in commen mobile devices. </h4><br><br>
+						<b>Ambient light sensor:</b>
+                        <p>It is used for background light brightness automatically controller. It can benifits the portable device, especially for mobile devices' battery's life. </p>
+                        <img src="images/ambient-light.jpg">
+                        <br><br>
+                        <b>Barometer sensor:</b>
+                        <p> It is high-accuracy chip which is used for temperature and barometric pressure detect and meassurement.</p> <br> <br>
+                        <b>Gyroscope:</b>
+                        <p>It is a spinning wheel or disc in which the axis of rotation is free to assume any orientation by itself. </p>
+                       	<img src="images/3D_Gyroscope.png">
+                        <br><br><br><br><br><br>
+					</div>
+
+                   
+                </div>
+            </div>
+        </div>
+	</div>
+</section>
+
+
+
+<!-- use-case section -->
+<div id="concept">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					<strong>03</strong>
+					<h1 class="heading bold">CONCEPT</h1>
+					<hr>
+				</div>
+				<!-- CONCEPT section -->
+				<div class="col-md-6 col-sm-12 col-lg-12">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#motiontracking" aria-controls="motiontracking" role="tab" data-toggle="tab"><h3>Motion Tracking</h3></a></li>
+                        <li><a href="#arealearning" aria-controls="arealearning" role="tab" data-toggle="tab"><h3>Area Learning</h3></a></li>
+                        <li><a href="#depthperception" aria-controls="depthperception" role="tab" data-toggle="tab"><h3>Depth Perception</h3></a></li>
+                    </ul>
+                    <!-- tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="motiontracking">
+                            <p>The Project Tango APIs provide the position and orientation of the user's device in full six degrees of freedom; this combination of position and orientation is referred to as the device’s pose. The APIs support two ways to get pose data: callbacks to get the most recent pose updates, and functions to get a pose estimate at a specific time. <br><br>
+                            Motion Tracking is great by itself if you need to know a device's orientation and relative position, but it does have limitations:<br>
+
+(1) It does not give the device the ability to understand the actual area around it.<br>
+(2) It does not "remember" previous sessions. Every time you start a new Motion Tracking session, the tracking starts over and reports its position relative to its most recent starting position.<br>
+(3) Over long distances and periods of time the accumulation of small errors can cause measurements to "drift," leading to larger errors in absolute position.<br></p>
+                            
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="arealearning">
+                            <p>Area learning gives the device the ability to see and remember the key visual features of a physical space-- the edges, conners, other unique features. So it can recoginize the area again when is needed to recall. And this is working along with Motion Tracking. Without any cloud services, the device can quickly call out the mathematical description, which is called ADF(Area Description File). It is a memory file. Because a place can be changed, so it has more than one ADFs is more reliable. <br><br>
+                            Area learning can improve the accurancy of the motion tracking, even over time. If the device recognize the place which it has seen before, it will correct and adjust its path to be more consistent with its previous ovservations. It is called Drift Corrections. As image below. 
+                            <img src="images/drift corrections.png">
+                            
+                           </p>
+                            
+                         </div>
+                        <div role="tabpanel" class="tab-pane" id="depthperception">
+                             
+                           <p>Depth perception let the device understand the distance from object to object in the real world. </p>
+                           
+                           <p>By combining Depth Perception with Motion Tracking, the device can measure distances between points in an area that aren't in the same frame. The device (for now) is designed work best indoor at moderate distances(0.5-4 meters). it may not be ideal for close-range object scanning or gesture detection. <br><br>
+                           There is a API provides a function to get depth data in the form of a point cloud. This format gives (x, y, z) coordinates for as many points in the scene as possible to calculate. Each dimension is a floating point value recording the position of each point in meters in the coordinate frame of the camera.</p>
+                            <br><br>
+                            <img src="images/perception.png">
+                            <br><br><br><br><br><br>
+                        </div>
+
+                   </div>
+                
+            	</div>
+			</div>
+		</div>
+	</div>
+</div>		
+
+<br><br><br>
+
+<!-- api section -->
+<section id="api">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+			  	<div class="section-title">
+					<strong>04</strong>
+					<h1 class="heading bold">JAVA API</h1>
+                	<hr>
+				</div>
+			</div>
+		  <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+				<div class="team-wrapper">
+					<img src="images/project-tango-logomark.png" class="img-responsive" alt="team img"><br>
+						<div class="team-des">
+							<a href="#overviewapi" aria-controls="overviewapi" role="tab" data-toggle="tab"><h3><center>Lifecycle</center></h3></a>
+							
+							
+				  </div>
+				</div>
+			</div>
+          <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.6">
+				<div class="team-wrapper">
+					<img src="images/motion-tracking.png" class="img-responsive" alt="team img">
+						<div class="team-des">
+							<a href="#motiontrackingapi" aria-controls="motiontrackingapi" role="tab" data-toggle="tab"><h3><center>Motion Tracking</center></h3></a>
+							
+						</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.9s">
+				<div class="team-wrapper">
+					<img src="images/area-learning.png" class="img-responsive" alt="team img">
+						<div class="team-des">
+							
+							<a href="#arealearningapi" aria-controls="arealearningapi" role="tab" data-toggle="tab"><h3><center>Area Learning</center></h3></a>
+							
+						</div>
+				</div>
+			</div>
+		  <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.2s">
+				<div class="team-wrapper">
+					<img src="images/Depth-preception.png" class="img-responsive" alt="team img">
+						<div class="team-des">
+							
+							<a href="#depthperceptionapi" aria-controls="depthperceptionapi" role="tab" data-toggle="tab"><h3><center>Depth Perception</center></h3></a>
+							
+							
+				  </div>
+				</div>
+			</div>
+			
+		</div>
+        <div class="tab-content">
+        				<div role="tabpanel" class="tab-pane active" id="overviewapi">
+                       
+                            <b> onCreate() - Initialize and configure<br></b>
+                            <p>// Instantiate the Tango service<br>
+                                mTango = new Tango(this);<br>
+                                // Create a new Tango Configuration and enable the MotionTracking API<br>
+                                mConfig = new TangoConfig();<br>
+                                mConfig = mTango.getConfig(TangoConfig.CONFIG_TYPE_CURRENT);<br>
+                                mConfig.putBoolean(TangoConfig.KEY_BOOLEAN_MOTIONTRACKING, true);<br>
+                                mConfig.putBoolean(TangoConfig.KEY_BOOLEAN_DEPTH, true);<br><br></p>
+
+                            <b>onResume() - connect with current configuration</b>
+                            <p>try {<br>
+                                    mTango.connect(mConfig);<br>
+                                } catch (TangoOutOfDateException e) {<br>
+                                    // handle the error<br>
+                                }<br><br></p>
+                            <b>onPause() - disconnect</b>
+                            <p>try {<br>
+                                    mTango.disconnect();<br>
+                                } catch (TangoErrorException e) {<br>
+                                    // handle the error<br>
+                                }<br><br></p>
+                            
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="motiontrackingapi">
+                            <p>The normal motion tracking system lifecycle consists of three states: <u>TangoPoseData.POSE_INITIALIZING</u>, <u>TangoPoseData.POSE_VALID</u>, and <u>TangoPoseData.POSE_INVALID</u>.<br>
+                            In order to use motion tracking, your TangoConfig must have KEY_BOOLEAN_MOTIONTRACKING set to true.<br><br>
+                            To getting post data, there are two options for basic mostion tracking:<br>
+                            <b>Callback-based:</b><br>
+                            <img src="images/callback.png"><br><br>
+                            <b>Polling-based:</b><br>
+                            <img src="images/pollingbased.png"><br>
+                            </p>
+                            
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="arealearningapi">
+                            <p>There are two configuration options are relevant to area learning: <b> Loading area descriptions</b> and <b>Learning mode</b><br>
+                            For Loading area descriptions, to load an area description file, the TangoConfig must have <u>KEY_STRING_AREADESCRIPTION</u> set to the UUID of the ADF you wish to load. When the TangoService starts, it loads this area description.<br>
+                            For Learning mode, In order to use area learning, your TangoConfig must have <u>KEY_BOOLEAN_LEARNINGMODE</u> set to true. In the default TangoConfig, <u>KEY_BOOLEAN_LEARNINGMODE</u> is set to false.<br><br>
+                            <b>Motion tracking with area learning example</b>
+                            <img src="images/arealeaning.png"><br><br>
+                            </p>
+                            
+                         </div>
+                        <div role="tabpanel" class="tab-pane" id="depthperceptionapi">
+                             
+                            <p>In order to use depth perception, your TangoConfig must have <u>KEY_BOOLEAN_DEPTH set to true</u>. In the default TangoConfig, <u>KEY_BOOLEAN_DEPTH is set to false</u>.</p><br>
+                            <b>Define the callback</b>
+                            <img src="images/depthapd.png">
+                            
+                            
+                        </div>
+
+                   </div>
+	</div>
+</section>
+
+<!-- challenge section -->
+<section id="use-case">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					<strong>05</strong>
+					<h1 class="heading bold">USE-CASE</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">
+					<img src="images/cube.png"><br>
+                    <b>Cube mover</b>
+                    <p>In Project Tango Cube Mover, the goal is to unlock the secret cube shooting area as quickly as possible. Users do this by pressing each of four colored buttons in the virtual room with a cube of corresponding color.
+Users'll need a space that they can freely walk around in the real world to play this game, as they move around in the virtual world by walking around in the real world. <br> <br>This game uses vitual 3D space as background. And also basically uses motion tracking, and area learning. I tried this game for 25 minutes. the moion tracking still accurate as I move. </p><br><br><br><br>
+                    
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="plan plan-two wow bounceIn" data-wow-delay="0.3s">
+					
+					<img src="images/meassure.png"><br><br>
+                    <b>Project Tango MeasureIt</b>
+                  
+                    <p>Measure It is a simple application that allows you to take measurements of the world with Project Tango device. Simply point the device at what users’d like to measure and use the cursor to place points. The measurements will be displayed in an Augmented Reality view. Please note that this application is still experimental and that measurements are approximate.</p><br>
+                    <p>I tried this app in my Project Tango device. However, I found a point I would look forward to improving: I can't choose edge points whatever I want, even though I pointed the edge. But the system can't let me choose the point. So this is the edge defination problem. </p><br><br>
+					
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="plan plan-three wow bounceIn" data-wow-delay="0.3s">
+					<img src="images/scanner.png"><br><br>
+                    <b>3D scanner for Project Tango</b>
+                    <p>An App and cloud infrastructure to scan an environment in real time and publish the results via www.voxxlr.com. There already are a few scans there to look at (FireFox and Chrome work best). This application is for future indoor navigation. <br><br>
+                    I tried this app, but I found out this app only success really scan my room for once. Also it's very slow even I chose 2 pixel/ 0.1s which is the maxmine I can choose. </p><br><br><br><br><br><br><br><br><br>
+				</div>
+            
+			</div>
+            <div class="col-md-4 col-sm-6 col-lg-8">
+				<div class="plan plan-three wow bounceIn" data-wow-delay="0.3s">
+					<img src="images/smile-face.jpg"><br>
+                    <b>Stick for low vision</b>
+                    <p>This is my idea about the application using Project Tango for low vision people or blind. The users need to hold the device forward. I will use motion tracking, area learning and also depth perception. When users walk close to wall, the device will make signal to let users change direction. This might be a dumb application. But I want to make this success first then think about the next step. </p><br><br>
+                </div>
+			</div>
+		</div>
+    </div>		
+</section>
+
+<!-- reference section -->
+<section id="reference">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					<strong>06</strong>
+					<h1 class="heading bold">Annotated Bibliography</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 contact-info">
+				<h2 class="heading bold"></h2>
+                <h4>(1)<a href="https://jahya.net/blog/how-depth-sensor-works-in-5-minutes/">How a Depth Sensor Works - in 5 Minutes, </a></h4>
+				<p>
+                <b>synopsis</b>: This website talks about how the depth sensor works. <br>
+                <b>reliability</b>: Andrew McWilliams is also a program coordinator with the Volumetric Society, which aims to broaden the conversation between technology and the arts through public presentations and events.</p><br>
+				
+                <h4>(2)<a href="https://agenzasbrothers.com/en/understanding-motion-tracking/">Understanding Motion Tracking</a></h4>
+                <p><b>Synopsis</b>: This website talked about how the motion tracking works. It's from produsors vision. <br>
+                <b>reliability</b>: AgenzasBrothers we have produced various film and 3D projects for customers throughout Germany, Austria and Switzerland. Over the years we gain a lot of experience.</p><br>
+                
+                <h4>(3)<a href="https://developers.google.com/project-tango/apis/java/">Goole Java API</a></h4>
+                <p><b>synopsis</b>: Since websites for Project Tango still so few, I only can chose the original one from Google. The Java APIs and the Area learning will 				                   be the parts I will mostly learn for. <br>
+					<b>reliability</b>: This is the official Android APIs websites.
+                   </p><br>
+                                    
+                <h4>(4)<a href="http://searchengineland.com/google-showcase-project-tango-indoor-mapping-vrar-platform-google-io-249629">Google to showcase Project Tango indoor mapping and VR/AR platform at Google I/O</a></h4>
+                <p><b>synopsis</b>: This report talks about the new improvement of Project Tango and also what's their goal in the future. <br>
+                <b>reliability</b>: This is the new report after 2016 Project Tango presentation. </p>
+                <br>
+                
+                <h4>(5)<a href="http://inpressco.com/wp-content/uploads/2014/09/Paper93139-3142.pdf">Google Project Tango – A Convenient 3D Modeling Device,Deval KeraliaȦ, Khyati K.VyasȦ*and Khushali DeulkarȦ, Oct.2014</a></h4>
+				<p><b>synopsis</b>:The research talks about the Google's way of mapping a room interior using an Android device. 3D technology is the future of mobile. With the growing advent of 3D sensors beingimplemented in phones and tablets, various softwares will be an app enabling millions of people to engage, interact and share with the world around them in visually rich 3D.<br>
+                <b>reliability</b>: This is a research produced by three enginners, majored in computer science engineer and computer Engineering.  
+                </p><br>
+            
+            </div>
+			
+		</div>
+	</div>
+</section>
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
